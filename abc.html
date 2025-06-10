@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-gray-100 to-blue-100">
+    <div class="max-w-6xl mx-auto p-10">
+        <!-- Navbar -->
+        <nav class="flex justify-between items-center py-4 border-b-2 boder-gray-500">
+            <div class="text-red-500 text-3xl font-bold">🔥</div>
+            <ul class="flex space-x-6 text-gray-600 font-medium">
+                <li><a href="#" class="hover:text-black">Home</a></li>
+                <li><a href="#" class="hover:text-black">Menu</a></li>
+                <li><a href="#" class="hover:text-black">Service</a></li>
+                <li><a href="#" class="hover:text-black">Offers</a></li>
+                <li><a href="#" class="hover:text-black">Rewards</a></li>
+            </ul>
+            <div class="relative">
+                <span class="absolute -top-3.5 -right-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full">1</span>
+                🛒
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <div class="flex flex-col md:flex-row items-center mt-10">
+            <div class="md:w-1/2 space-y-4">
+                <span class="bg-red-100 text-red-500 px-3 py-1 rounded-full text-sm">New Release</span>
+                <h1 class="text-5xl font-bold">Experience the <span class="text-red-500">perfect taste</span></h1>
+                <p class="text-gray-500">Premium burgers crafted with passion, delivering an unforgettable dining experience to your doorstep.</p>
+                <div class="flex space-x-4 mt-4">
+                    <button class="bg-red-500 text-white px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-red-600">Order now</button>
+                    <button class="border border-red-500 text-red-500 px-6 py-3 rounded-lg font-bold hover:bg-red-100">Track Order</button>
+                </div>
+                <div class="flex space-x-6 text-gray-600 mt-6">
+                    <p>✅ 30 Min Delivery</p>
+                    <p>✅ 100% Secure</p>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <img src="burger.png" alt="Burger" class="w-96 h-96">
+                    <!-- <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.slurrp.com%2Frecipes%2Fvegetable-burger-1612537123&psig=AOvVaw1gUfJq42IqY3M7Uxc4D0Aj&ust=1742045496932000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjC0q3XiYwDFQAAAAAdAAAAABAE" alt="Burger" class="w-96 h-96"> -->
+                    <span class="absolute top-4 right-4 bg-red-500 text-white text-xs px-2 py-1 rounded-full">NEW</span>
+                    <div class="absolute bottom-4 left-4 flex items-center space-x-2 bg-white px-3 py-1 rounded-lg shadow">
+                        ⭐ 4.9
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
